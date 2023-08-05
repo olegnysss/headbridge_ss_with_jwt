@@ -1,4 +1,4 @@
-package com.poluhin.ss.demo.domain.entity;
+package com.ryvkin.ss.demo.domain.entity;
 
 import jakarta.persistence.*;
 import lombok.*;
