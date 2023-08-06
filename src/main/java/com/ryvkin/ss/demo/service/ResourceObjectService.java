@@ -21,7 +21,7 @@ public class ResourceObjectService {
 
     public ResourceObject get(int id) {
         return repository.findById(id)
-                .map(r -> new ResourceObject(r.getId(), r.getValue(), r.getPath()))
+                .map(r -> new ResourceObject(r.getId(), r.getResourceValue(), r.getPath()))
                 .orElse(null);
     }
 

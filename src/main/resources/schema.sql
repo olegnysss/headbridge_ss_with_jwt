@@ -2,7 +2,7 @@ create table "resource_object_entity"
 (
     "id"    integer not null,
     "path"  varchar(255),
-    "value" varchar(255),
+    "resource_value" varchar(255),
     primary key ("id")
 );
 

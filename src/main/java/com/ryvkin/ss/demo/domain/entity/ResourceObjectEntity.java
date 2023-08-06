@@ -2,7 +2,6 @@ package com.ryvkin.ss.demo.domain.entity;
 
 import jakarta.persistence.*;
 import lombok.*;
-import org.springframework.stereotype.*;
 
 @Entity
 @Getter
@@ -13,7 +12,7 @@ public class ResourceObjectEntity {
 
     @Id
     private Integer id;
-    private String value;
+    private String resourceValue;
     private String path;
 
 
